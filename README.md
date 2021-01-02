@@ -1,2 +1,2 @@
 # Jalalidate
-Gregorian to Jalali date converter
+Gregorian to Jalali date converters
