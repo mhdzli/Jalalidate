@@ -6,9 +6,9 @@ void jalali_to_gregorian(/* output */ int *g_y, int *g_m, int *g_d,/*  input */ 
  
 //For TC++ use commented liberaries
 #include <stdio.h>
-#include <iostream>//<iostream.h>
-#include <cstdlib>//<stdlib.h>
-#include <ctime>//<time.h>
+//#include <iostream><iostream.h>
+#include <stdlib.h>//<cstdlib>
+#include <time.h>//<ctime>
 
 int g_days_in_month[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 int j_days_in_month[12] = {31, 31, 31, 31, 31, 31, 30, 30, 30, 30, 30, 29};
